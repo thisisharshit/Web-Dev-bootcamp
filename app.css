@@ -1,0 +1,22 @@
+h1{
+    color: indigo;
+    background-color: teal;
+    
+}
+button{
+    color:red;
+    background-color:yellow;
+}
+p{
+    color: blue;
+    background-color: tomato;
+    
+}
+span{
+    color: red;
+    background: yellow;
+    
+}
+body{
+    background: red;
+}

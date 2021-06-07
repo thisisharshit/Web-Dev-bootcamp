@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>forms element demo</title>
+    </head>
+
+    <body>
+        <h1>Forms demo</h1>
+        <form action="/asdf">
+            <div><input type="text" placeholder="enter your name" name="name" required></div>
+            <p><input type="email" placeholder="enter your email" name="email" required></p>
+            <p><input type="number" placeholder="enter your number" name="number"></p>
+            <p><input type="time"></p>
+            <input type="submit">
+            <button type="button">doesnot do anything</button>
+            <button type="submit">submit the form</button>
+        </form>
+
+        <hr>
+
+        <h2>more inputs</h2>
+        <form action="/sdf">
+            <input type="checkbox" name="agreed" id="agree">
+            <label for="agree">i agree to everything</label>
+            <p>
+                <input type="radio" name="same" id="1" value="1">
+                <label for="1">1</label>
+                <input type="radio" name="same" id="2" value="2">
+                <label for="2">2</label>
+                <input type="radio" name="same" id="3" value="3">
+                <label for="3">3</label>
+            </p>
+            <p>
+                <label for="gender">please select your gender:-</label>
+                <select name="gender" id="gender">
+                    <option value="">please select your gender</option>
+                    <option value="m">male</option>
+                    <option value="f">female</option>
+                    <option value="o">others</option>
+                </select>
+            </p>
+            <button>submit</button>
+        </form>
+
+        <h2>range and text area</h2>
+        <form action="/sdfs">
+            <p>
+                <label for="vol">Volume</label>
+                <input type="range" name="vol" id="vol" min="1" max="100" value="10">
+
+            </p>
+            <button>submit</button>
+        </form>
+        <hr>
+
+        <h2>validation demo</h2>
+        <form action="/adfasdf">
+
+
+        </form>
+
+        <hr>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button>GOOGLE IT! </button>
+        </form>
+
+        <hr>
+        <form action="/adfsrtadg">
+            <ul>
+                <li>
+                    <p><label for="name">Name:</label></p>
+                    <input placeholder="name" type="text" id="name" name="user_name" autocomplete="name">
+                </li>
+                <br>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" autocomplete="email">
+                </li>
+                <br>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <br>
+                <class="button">
+                    <button type="submit">Send your message</button>
+                    </class>
+            </ul>
+        </form>
+
+    </body>
+
+</html>

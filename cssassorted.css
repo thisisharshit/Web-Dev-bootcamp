@@ -1,0 +1,61 @@
+section.opac{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+    display: inline-block;
+    
+}
+
+#rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+#opac{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+    opacity: 1;
+    
+}
+div.pos{
+    width: 100px;
+    height: 100px;
+    background-color: #3d404b;
+    border: 2px solid black;
+    margin: 8px;
+    display: inline-block;
+    
+    
+}
+#mid{
+    background-color: #81b29a;
+}
+#static #mid{
+    position: sticky;
+    top: 100px;
+}
+#rel{
+    position: relative;
+    left: 100px;
+}
+#rel #mid{
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+#abs{
+position: relative;
+}
+#abs #mid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+#fix #mid{
+    position: fixed;
+    top: 0px;
+    left: 0;
+}

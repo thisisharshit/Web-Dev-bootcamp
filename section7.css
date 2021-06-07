@@ -1,0 +1,72 @@
+body{
+    background: #f1faee;
+}
+label,input{
+    font-size: 20px;
+    border-radius: 10px;
+    color: red;
+}
+button{
+    font-size: 30px;
+    background: turquoise ;
+    border-radius: 5px;
+}
+
+h1,h2{
+    color: #1d3557;
+}
+#sign{
+    background: #1d3557;
+    color: #f1faee;
+}
+span{
+    color: #219ebc;
+}
+.tag{
+    color: yellow;
+    background: red;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.post a{
+    text-decoration: none;
+    color: red;
+
+}
+footer a{
+    color: rgb(2, 8, 26);
+}
+.post a:hover{
+    color: saddlebrown;
+    text-decoration: underline solid;
+}
+.post button:hover{
+    background-color: #ff1233;
+    border-radius: 30px;
+}
+.post button:active{
+    color: white;
+    box-shadow: yellow 5px;
+}
+footer a:hover{
+    background: #fb8500
+}
+h2+button{ /*button just after every h2*/
+    font-size: 20px;
+    background: salmon;
+}
+a[href*="g"]{
+    color: slateblue;
+}
+
+.post:nth-of-type(2n){
+    background-color: #e9edc9;
+}
+
+
+h2::first-letter{
+    font-size: 50px;
+}
+::selection{
+    background-color: yellow;
+}
