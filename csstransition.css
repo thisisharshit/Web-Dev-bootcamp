@@ -1,14 +1,24 @@
 .circle{
     width: 300px;
     height: 300px;
-    background-color: magenta;
-    text-align: center;
-    font-size: large;
-    font-family: calibri;
+    background-color: #ffa600;
     
+    /* transition: 1s; */
+/* transition: background-color 1s; only background color will take 1 sec, others will transition immediately*/ 
+    /* transition: background-color 1s 3s; take 1s to transition, after 3 sec */
+    transition: background-color 1s, border-radius 3s;
 }
-.cirlce:hover{
-    background-color: yellow;
-    border-radius: 0;
+.circle:hover{
+    background-color: #5e1979;
     border-radius: 50%;
+}
+section div{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 100px;
+    transition: margin-left 3s;
+}
+section:hover{
+    margin-left: 500px;
 }
